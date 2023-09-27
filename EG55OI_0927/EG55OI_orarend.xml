@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+    <ora id = 1, tipus = "eloadas">
+        <targy>FizikaII</targy>
+        <idopont nap = "Hetfo", tol = "8" ig = "10"\>
+        <helyszin>XXX</helyszin>
+        <oktato>Dr. Pszota Gabor</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id = 2, tipus = "eloadas">
+        <targy>Szoftverteszteles</targy>
+        <idopont nap = "Hetfo", tol = "10" ig = "12"\>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Hornyak Oliver</oktato>
+        <szak>Korszeru Webtechnologiak</szak>
+    </ora>
+    <ora id = 2, tipus = "gyakorlat">
+        <targy>Szoftverteszteles</targy>
+        <idopont nap = "Hetfo", tol = "12" ig = "14"\>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Hornyak Oliver</oktato>
+        <szak>Korszeru Webtechnologiak</szak>
+    </ora>
+
+    <ora id = 3, tipus = "eloadas">
+        <targy>Webtechnologiak</targy>
+        <idopont nap = "Hetfo", tol = "14" ig = "16"\>
+        <helyszin>XXX</helyszin>
+        <oktato>Dr. Agardi Anita</oktato>
+        <szak>Korszeru Webtechnologiak</szak>
+    </ora>
+       <ora id = 3, tipus = "gyakorlat">
+        <targy>Webtechnologiak</targy>
+        <idopont nap = "Hetfo", tol = "16" ig = "18"\>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Agardi Anita</oktato>
+        <szak>Korszeru Webtechnologiak</szak>
+    </ora>
+
+
+
+    <ora id = 4, tipus = "eloadas">
+        <targy>Mesterseges Intteligencia</targy>
+        <idopont nap = "Kedd", tol = "10" ig = "12"\>
+        <helyszin>XXXII</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    
+    <ora id = 5, tipus = "eloadas">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont nap = "Kedd", tol = "12" ig = "14"\>
+        <helyszin>XXXII</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Korszeru Webtechnologiak</szak>
+    </ora>
+
+    <ora id = 6, tipus = "eloadas">
+        <targy>Webesalkalmazasok</targy>
+        <idopont nap = "Kedd", tol = "14" ig = "16"\>
+        <helyszin>In/102</helyszin>
+        <oktato>-</oktato>
+        <szak>Korszeru Webtechnologiak</szak>
+    </ora>
+    <ora id = 6, tipus = "gyakorlat">
+        <targy>Webesalkalmazasok</targy>
+        <idopont nap = "Kedd", tol = "16" ig = "18"\>
+        <helyszin>In/102</helyszin>
+        <oktato>-</oktato>
+        <szak>Korszeru Webtechnologiak</szak>
+    </ora>
+
+
+
+
+    <ora id = 0, tipus = "gyakorlat">
+        <targy>Elektronika</targy>
+        <idopont nap = "szerda", tol = "10" ig = "12"\>
+        <helyszin>A1/109</helyszin>
+        <oktato>Szabo Norbert</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id = 5, tipus = "gyakorlat">
+        <targy>Adatkazales XML-ben</targy>
+        <idopont nap = "Szerda", tol = "12" ig = "14"\>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Korszeru Webtechnologiak</szak>
+    </ora>
+
+    <ora id = 1, tipus = "gyakorlat">
+        <targy>fizikaII</targy>
+        <idopont nap = "Szerda", tol = "16" ig = "18"\>
+        <helyszin>A1/307</helyszin>
+        <oktato>Nagy Adam</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id = 4, tipus = "gyakorlat">
+        <targy>Mesterseges Intelligencia</targy>
+        <idopont nap = "Csutortok", tol = "10" ig = "12"\>
+        <helyszin>I</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+</orarend>

@@ -1,0 +1,27 @@
+<konferencia>
+    <cim>Konferencia címe</cim>
+    <helyszin>Konferencia helyszíne</helyszin>
+    <eloadok>
+        <eloado>
+            <nev>Eloado1 Neve</nev>
+            <lakcim>Eloado1 Lakcime</lakcim>
+            <adoszam>Eloado1 Adoszama</adoszam>
+        </eloado>
+        <eloado>
+            <nev>Eloado2 Neve</nev>
+            <lakcim>Eloado2 Lakcime</lakcim>
+            <adoszam>Eloado2 Adoszama</adoszam>
+        </eloado>
+    </eloadok>
+    <datum>2023-09-28</datum>
+    <hallgatok>
+        <hallgato>
+            <nev>Hallgato1 Neve</nev>
+            <lakcim>Hallgato1 Lakcime</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Hallgato2 Neve</nev>
+            <lakcim>Hallgato2 Lakcime</lakcim>
+        </hallgato>
+    </hallgatok>
+</konferencia>
