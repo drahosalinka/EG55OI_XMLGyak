@@ -1,0 +1,74 @@
+<!DOCTYPE root [
+    <!ELEMENT root (A*, B*, C*, many-to-many*, one-to-many*)>
+    <!ELEMENT A (B*, C*)>
+    <!ATTLIST A
+        a CDATA #REQUIRED
+        b CDATA #IMPLIED
+        c CDATA #IMPLIED
+    >
+
+    <!ELEMENT B (x?, y?)>
+    <!ATTLIST B
+        a CDATA #REQUIRED
+        b CDATA #IMPLIED
+    >
+
+    <!ELEMENT C EMPTY>
+    <!ATTLIST C
+        a CDATA #REQUIRED
+        b CDATA #IMPLIED
+    >
+
+    <!ELEMENT many-to-many (A, C)>
+    <!ATTLIST many-to-many
+        c CDATA #IMPLIED
+    >
+
+    <!ELEMENT one-to-many (B, C)>
+    <!ATTLIST one-to-many
+        c CDATA #IMPLIED
+    >
+]>
+<root>
+    <A a="1" b="2" c="3">
+        <B a="4" b="5">
+            <x>6</x>
+            <y>7</y>
+        </B>
+        <B a="8" b="9">
+            <x>10</x>
+            <y>11</y>
+        </B>
+        <C a="12" b="13"/>
+        <C a="14" b="15"/>
+    </A>
+    <A a="16" b="17" c="18">
+        <B a="19" b="20">
+            <x>21</x>
+            <y>22</y>
+        </B>
+        <C a="23" b="24"/>
+    </A>
+    <B a="25" b="26">
+        <x>27</x>
+        <y>28</y>
+    </B>
+    <C a="29" b="30"/>
+    <many-to-many c="31">
+        <A a="32" b="33">
+            <B a="34" b="35">
+                <x>36</x>
+                <y>37</y>
+            </B>
+            <C a="38" b="39"/>
+        </A>
+        <C a="40" b="41"/>
+    </many-to-many>
+    <one-to-many c="42">
+        <B a="43" b="44">
+            <x>45</x>
+            <y>46</y>
+        </B>
+        <C a="47" b="48"/>
+    </one-to-many>
+</root>

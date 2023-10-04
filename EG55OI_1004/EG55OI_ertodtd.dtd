@@ -1,0 +1,28 @@
+<!ELEMENT A (B*, C*)>
+<!ATTLIST A
+    a CDATA #REQUIRED
+    b CDATA #IMPLIED
+    c CDATA #IMPLIED
+>
+
+<!ELEMENT B (x?, y?)>
+<!ATTLIST B
+    a CDATA #REQUIRED
+    b CDATA #IMPLIED
+>
+
+<!ELEMENT C EMPTY>
+<!ATTLIST C
+    a CDATA #REQUIRED
+    b CDATA #IMPLIED
+>
+
+<!ELEMENT many-to-many (A, C)>
+<!ATTLIST many-to-many
+    c CDATA #IMPLIED
+>
+
+<!ELEMENT one-to-many (B, C)>
+<!ATTLIST one-to-many
+    c CDATA #IMPLIED
+>
