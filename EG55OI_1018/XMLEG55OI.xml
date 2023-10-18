@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fesztival fesz_id = 1, nev CAMPUS =, helyszin = Debrecen, ev = 2023>
+    <tulajdonos t_id = 1>
+        <nev>Debrecen varos onkormanyzata</nev>
+        <adoszam>100200300400</adoszam>
+        <alapitas>1740</alapitas>
+        <bevetel>5000000</bevetel>
+    </tulajdonos>
+    
+    <fellepo fel_id = 1>
+        <nev>The Crams</nev>
+        <orszag>Magyarorszag</orszag>
+        <dij>80000</dij>
+    </fellepo>
+
+    <fellepo fel_id = 2>
+        <nev>Carson Coma</nev>
+        <orszag>Magyarorszag</orszag>
+        <dij>400000</dij>
+    </fellepo>
+
+
+    <resztvevo r_id = 1>
+        <nev>Kovacs Dorottya</nev>
+        <diakigazolvany>1242024567</diakigazolvany>
+        <lakcim>
+            <telepules>Debrecen</telepules>
+            <utca>Arany Janos</utca>
+            <hazszam>145</hazszam>
+        </lakcim>
+
+        <nyelvtudas ny_id = 1>
+            <nyelv>Angol</nyelv>
+            <szint>B2</szint>
+        </nyelvtudas>
+
+        <nyelvtudas ny_id = 3>
+            <nyelv>Spanyol</nyelv>
+            <szint>B2</szint>
+        </nyelvtudas>
+    </resztvevo>
+
+    <resztvevo r_id = 2>
+        <nev>Toth David</nev>
+        <diakigazolvany>3442894327</diakigazolvany>
+        <lakcim>
+            <telepules>Hajduszoboszlo</telepules>
+            <utca>Kossuth Lajos</utca>
+            <hazszam>37</hazszam>
+        </lakcim>
+
+        <nyelvtudas ny_id = 1>
+            <nyelv>Angol</nyelv>
+            <szint>C1</szint>
+        </nyelvtudas>
+
+        <nyelvtudas ny_id = 2>
+            <nyelv>Nemet</nyelv>
+            <szint>A2</szint>
+        </nyelvtudas>
+    </resztvevo>
+    
+    <bar b_id = 1>
+        <nev>Black Sheep</nev>
+        <ceg>Black Sheep kft Debrecen</ceg>
+        <ital>Unicum</ital>
+        <ital>Jager</ital>
+        <ital>Limonade</ital>
+        <ital>Coca-Cola</ital>
+
+        <alkalmazott a_id= 1>
+            <nev>Balogh Bianka</nev>
+            <muszak>Kedd 18:00-02:00</muszak>
+            <muszak>Csutortok 12:00-22:00</muszak>
+            <fizetes>1300</fizetes>
+        </alkalmazott>
+        <alkalmazott a_id= 2>
+            <nev>Mezei Janos</nev>
+            <muszak>Szerda 12:00-22:00</muszak>
+            <muszak>Pentek 18:00-02:00</muszak>
+            <muszak>Szombat 18:00-02:00</muszak>
+            <fizetes>1300</fizetes>
+        </alkalmazott>
+    </bar>
+
+    <bar b_id = 2>
+        <nev>Wine House</nev>
+        <ceg>Winery Budapest kft</ceg>
+        <ital>Unicum</ital>
+        <ital>Vorosbor</ital>
+        <ital>Feherbor</ital>
+        <ital>Froccs</ital>
+
+        <alkalmazott a_id= 3>
+            <nev>Szabo Noemi</nev>
+            <muszak>Hetfo 12:00-18:00</muszak>
+            <muszak>Csutortok 18:00-02:00</muszak>
+            <fizetes>1360</fizetes>
+        </alkalmazott>
+        <alkalmazott a_id= 4>
+            <nev>szabo Norbert</nev>
+            <muszak>Kedd 12:00-18:00</muszak>
+            <muszak>Szerda 18:00-02:00</muszak>
+            <muszak>Vasarnap 12:00-18:00</muszak>
+            <fizetes>1360</fizetes>
+        </alkalmazott>
+    </bar>
+    
+
+    
+</fesztival>
