@@ -1,0 +1,26 @@
+<?xml version="1.0" encodinh="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="keresztnev" type="xs:string"/>
+    <xs:element name="vezeteknev" type="xs:string" />
+    <xs:element name="becenev" type="xs:string" />
+    <xs:element name="kor" type="xs:number"/>
+
+    <xs:sequence>
+        <xs:element name="student">
+            <xs:complexType>
+                <xs:sequence>
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element ref="keresztnev"/>
+                                <xs:element ref="vezetknev"/>
+                                <xs:element ref="becenev"/>
+                                <xs:element ref="kor"/>
+
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
